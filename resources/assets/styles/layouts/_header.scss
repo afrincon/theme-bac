@@ -1,0 +1,22 @@
+.banner .nav li {
+  @extend .nav-item;
+}
+
+.banner .nav a {
+  @extend .nav-link;
+}
+
+.banner .sub-header {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.banner .sub-header .top-left {
+  display: inline-flex;
+}
+
+.banner .sub-header .top-left img.custom-logo {
+  max-width: 120px;
+  max-height: 127px;
+}
